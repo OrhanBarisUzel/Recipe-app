@@ -9,5 +9,5 @@ class CalcTests(SimpleTestCase):
         self.assertEqual(res, 11)
 
     def test_subtract_numbers(self):
-        res=calc.subtract(5, 3)
+        res=calc.subtract(5, 3) 
         self.assertEqual(res, 2)
